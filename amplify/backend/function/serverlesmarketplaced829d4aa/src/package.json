@@ -1,0 +1,20 @@
+{
+    "name": "serverlesmarketplaced829d4aa",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "aws-serverless-express": "^3.3.5",
+        "body-parser": "^1.17.1",
+        "express": "^4.15.2",
+        "stripe": "8.178.0",
+        "dotenv": "10.0.0",
+        "cors": "2.8.5"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+}

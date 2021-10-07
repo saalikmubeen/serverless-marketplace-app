@@ -1,0 +1,42 @@
+{
+  "paths": [
+    {
+      "name": "/charge",
+      "lambdaFunction": "serverlesmarketplaced829d4aa",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ]
+      },
+      "policyResourceName": "/charge"
+    }
+  ],
+  "resourceName": "serverlessmarketplace",
+  "apiName": "serverlessmarketplace",
+  "functionArns": [
+    {
+      "lambdaFunction": "serverlesmarketplaced829d4aa"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-serverlesmarketplace-dev-223236-authRole",
+    "unAuthRoleName": "amplify-serverlesmarketplace-dev-223236-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "serverlesmarketplaced829d4aa",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

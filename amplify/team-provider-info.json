@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-serverlesmarketplace-dev-223236-authRole",
+      "UnauthRoleArn": "arn:aws:iam::041892289571:role/amplify-serverlesmarketplace-dev-223236-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::041892289571:role/amplify-serverlesmarketplace-dev-223236-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-serverlesmarketplace-dev-223236-deployment",
+      "UnauthRoleName": "amplify-serverlesmarketplace-dev-223236-unauthRole",
+      "StackName": "amplify-serverlesmarketplace-dev-223236",
+      "StackId": "arn:aws:cloudformation:ap-south-1:041892289571:stack/amplify-serverlesmarketplace-dev-223236/8e1b2320-23a2-11ec-a59c-0a8f1852746e",
+      "AmplifyAppId": "d2i8jyerzorx73"
+    },
+    "categories": {
+      "auth": {
+        "serverlesmarketplacec755f3d3": {}
+      },
+      "function": {
+        "serverlesmarketplaced829d4aa": {
+          "deploymentBucketName": "amplify-serverlesmarketplace-dev-223236-deployment",
+          "s3Key": "amplify-builds/serverlesmarketplaced829d4aa-7641676c546359477967-build.zip"
+        }
+      }
+    }
+  }
+}
